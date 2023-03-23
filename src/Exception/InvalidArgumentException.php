@@ -1,6 +1,6 @@
 <?php
 
-namespace Amirsahra\Neo4jORM\src\Exception;
+namespace Amirsahra\Neo4jORM\Exception;
 
 use Exception;
 

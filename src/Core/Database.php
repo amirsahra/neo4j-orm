@@ -1,6 +1,6 @@
 <?php
 
-namespace Amirsahra\Neo4jORM\src\Core;
+namespace Amirsahra\Neo4jORM\Core;
 
 class Database
 {

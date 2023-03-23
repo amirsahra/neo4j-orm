@@ -1,8 +1,8 @@
 <?php
 
-namespace Amirsahra\Neo4jORM\src\Core;
+namespace Amirsahra\Neo4jORM\Core;
 
-use Amirsahra\Neo4jORM\src\Exception\InvalidArgumentException;
+use Amirsahra\Neo4jORM\Exception\InvalidArgumentException;
 
 class Config
 {

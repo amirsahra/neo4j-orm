@@ -1,6 +1,6 @@
 <?php
 
-namespace Amirsahra\Neo4jORM\src;
+namespace Amirsahra\Neo4jORM;
 
 use Illuminate\Support\ServiceProvider;
 
