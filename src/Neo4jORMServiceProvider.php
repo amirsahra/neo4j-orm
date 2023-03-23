@@ -11,6 +11,8 @@ class Neo4jORMServiceProvider extends ServiceProvider
         $this->app->bind('Neo4jORM', function ($app) {
             return new Neo4jORM();
         });
+
+        $this->mergeConfigFrom(__DIR__ . '/Config/neo4jORM.php','neo4jORM');
     }
 
     public function boot(): void
