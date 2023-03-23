@@ -1,6 +1,6 @@
 <?php
 
-namespace Amirsahra\Neo4jORM\Core;
+namespace Amirsahra\Neo4jORM\Core\Utility;
 
 use Amirsahra\Neo4jORM\Exception\ConfigFileNotFoundException;
 use Amirsahra\Neo4jORM\Exception\ConfigKeyNotFoundException;

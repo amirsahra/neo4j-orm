@@ -2,10 +2,10 @@
 return [
     'default' => env('NEO4J_DRIVER', 'neo4j'),
 
-    'connections' => [
+    'drivers' => [
         'neo4j' => [
-            'host' => env('NEO4J_HOST', '127.0.0.1'),
-            'port' => env('NEO4J_PORT', ''),
+            'host' => env('NEO4J_HOST', 'neo4j://core1'),
+            'port' => env('NEO4J_PORT', '7777'),
         ],
         'bolt' => [
             'host' => env('NEO4J_HOST', '127.0.0.1'),
@@ -15,8 +15,7 @@ return [
             'host' => env('NEO4J_HOST', '127.0.0.1'),
             'port' => env('NEO4J_PORT', ''),
         ],
-        'username' => 'username',
-        'password' => 'password',
+
         /*
 
         $boltDriver = DriverFactory::create('bolt://neo4j:test@localhost');
@@ -24,6 +23,8 @@ return [
         $httpDriver = DriverFactory::create('https://localhost:7473');
 
         */
-    ]
+    ],
 
+    'username' => env('NEO4J_USERNAME', 'username'),
+    'password' => env('NEO4J_PASSWORD', 'password'),
 ];
