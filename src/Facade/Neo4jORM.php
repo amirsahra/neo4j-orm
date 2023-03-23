@@ -7,6 +7,8 @@ use Illuminate\Support\Facades\Facade;
 /**
  * Class Neo4jORM
  *
+ * @method static string test()
+ *
  * @package Amirsahra\Neo4jORM\Facade
  * @see \Amirsahra\Neo4jORM\Facade\Neo4jORM
  */

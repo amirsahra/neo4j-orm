@@ -8,8 +8,7 @@ class Neo4jORMServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
-        parent::register();
-        $this->app->bind('Neo4jORM', function () {
+        $this->app->bind('Neo4jORM', function ($app) {
             return new Neo4jORM();
         });
     }
